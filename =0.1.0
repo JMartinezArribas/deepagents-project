@@ -1,0 +1,42 @@
+Collecting ddgs
+  Downloading ddgs-9.10.0-py3-none-any.whl (40 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.3/40.3 kB 1.2 MB/s eta 0:00:00
+Collecting fake-useragent>=2.2.0
+  Downloading fake_useragent-2.2.0-py3-none-any.whl (161 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 161.7/161.7 kB 5.1 MB/s eta 0:00:00
+Collecting lxml>=4.9.4
+  Downloading lxml-6.0.2-cp310-cp310-macosx_10_9_x86_64.whl (4.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.6/4.6 MB 8.8 MB/s eta 0:00:00
+Collecting primp>=0.15.0
+  Using cached primp-0.15.0-cp38-abi3-macosx_10_12_x86_64.whl (3.2 MB)
+Collecting click>=8.1.8
+  Downloading click-8.3.1-py3-none-any.whl (108 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 108.3/108.3 kB 3.1 MB/s eta 0:00:00
+Collecting httpx[brotli,http2,socks]>=0.28.1
+  Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.5/73.5 kB 3.3 MB/s eta 0:00:00
+Collecting anyio
+  Downloading anyio-4.12.1-py3-none-any.whl (113 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 113.6/113.6 kB 3.2 MB/s eta 0:00:00
+Collecting httpcore==1.*
+  Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.8/78.8 kB 2.6 MB/s eta 0:00:00
+Requirement already satisfied: certifi in /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages (from httpx[brotli,http2,socks]>=0.28.1->ddgs) (2025.4.26)
+Requirement already satisfied: idna in /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages (from httpx[brotli,http2,socks]>=0.28.1->ddgs) (3.6)
+Collecting h2<5,>=3
+  Downloading h2-4.3.0-py3-none-any.whl (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.8/61.8 kB 2.3 MB/s eta 0:00:00
+Collecting brotli
+  Downloading brotli-1.2.0-cp310-cp310-macosx_10_9_x86_64.whl (445 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 445.4/445.4 kB 9.0 MB/s eta 0:00:00
+Collecting socksio==1.*
+  Downloading socksio-1.0.0-py3-none-any.whl (12 kB)
+Requirement already satisfied: h11>=0.16 in /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages (from httpcore==1.*->httpx[brotli,http2,socks]>=0.28.1->ddgs) (0.16.0)
+Collecting hyperframe<7,>=6.1
+  Downloading hyperframe-6.1.0-py3-none-any.whl (13 kB)
+Collecting hpack<5,>=4.1
+  Downloading hpack-4.1.0-py3-none-any.whl (34 kB)
+Requirement already satisfied: exceptiongroup>=1.0.2 in /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages (from anyio->httpx[brotli,http2,socks]>=0.28.1->ddgs) (1.3.0)
+Requirement already satisfied: typing_extensions>=4.5 in /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages (from anyio->httpx[brotli,http2,socks]>=0.28.1->ddgs) (4.13.2)
+Installing collected packages: brotli, socksio, primp, lxml, hyperframe, httpcore, hpack, fake-useragent, click, h2, anyio, httpx, ddgs
+Successfully installed anyio-4.12.1 brotli-1.2.0 click-8.3.1 ddgs-9.10.0 fake-useragent-2.2.0 h2-4.3.0 hpack-4.1.0 httpcore-1.0.9 httpx-0.28.1 hyperframe-6.1.0 lxml-6.0.2 primp-0.15.0 socksio-1.0.0

@@ -1,0 +1,15 @@
+# Dependencias para el agente de investigación
+# Todo es gratuito y open source
+
+# Dependencias core necesarias
+typing-extensions>=4.5.0
+
+# Búsqueda web gratuita (sin API key)
+# NOTA: El paquete se llama 'ddgs' ahora (antes era duckduckgo-search)
+ddgs>=0.1.0
+
+# Dependencias adicionales
+click>=8.1.0
+
+# Eso es todo! Solo necesitas esto y Ollama
+# Ollama se instala aparte desde: https://ollama.com/download
