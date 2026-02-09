@@ -237,7 +237,7 @@ $ python test_agent.py
    ✅ Ollama instalado correctamente
    
 🔍 Verificando modelos de Ollama...
-   ✅ Modelos disponibles: gemma2:4b, llama3.2, phi3
+   ✅ Modelos disponibles: gemma3:4b, llama3.2, phi3
    
 🔍 Verificando dependencias Python...
    ✅ ddgs instalado
@@ -262,6 +262,3 @@ $ python test_agent.py
 
 ============================================================
 🎉 ¡TODO FUNCIONA! Estás listo para usar el agente.
-```
-
-**Nota:** El agente usará automáticamente el primer modelo que encuentre instalado (como tu `gemma2:4b`). No necesitas configurar nada.
