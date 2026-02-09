@@ -74,7 +74,7 @@ Puedes usar **cualquier modelo** de Ollama. Ejemplos:
 ollama pull llama3.2
 
 # Opción 2: Gemma (de Google, muy eficiente)
-ollama pull gemma2:4b
+ollama pull gemma3:4b
 
 # Opción 3: Phi (de Microsoft, compacto)
 ollama pull phi3
@@ -102,7 +102,7 @@ Deberías ver algo como:
 
 ```
 ✅ Ollama instalado
-✅ Modelo llama3.2 disponible
+✅ Modelo gemma3:4b disponible
 ✅ Búsqueda web funcionando
 🚀 Todo listo para usar!
 
@@ -210,12 +210,12 @@ for pregunta in preguntas:
 
 ## 📊 Costos
 
-- ✅ Software: **$0**
-- ✅ Modelos AI: **$0**
-- ✅ Búsquedas web: **$0**
-- ✅ Uso ilimitado: **$0**
+- ✅ Software: **0€**
+- ✅ Modelos AI: **0€**
+- ✅ Búsquedas web: **0€**
+- ✅ Uso ilimitado: **0€**
 
-**Total: $0 para siempre** 🎉
+**Total: 0€ para siempre** 🎉
 
 ## 🤝 Contribuir
 
