@@ -1,8 +1,7 @@
-# 🤖 DeepAgents Research Assistant - Versión Simple
+# 🤖 DeepAgents Research Assistant
 
-Un agente de investigación AI completamente **GRATUITO** que funciona en tu computadora.
+Un agente de investigación AI gratuito.
 
-**No necesitas API keys ni tarjetas de crédito** ✨
 
 ## 🎯 ¿Qué hace este proyecto?
 
@@ -12,7 +11,7 @@ Este agente puede:
 - 📝 Generar respuestas completas
 - 💯 Todo 100% gratis
 
-**✨ Funciona con cualquier modelo de Ollama** - No necesitas un modelo específico. El agente detecta automáticamente el modelo que tienes instalado (como `llama3.2`, `gemma2`, `phi3`, etc.)
+**✨ Funciona con cualquier modelo de Ollama** - No necesitas un modelo específico. El agente detecta automáticamente el modelo que tienes instalado (como `llama3.2`, `gemma3`, `phi3`, etc.)
 
 ## 📋 Lo que necesitas
 
@@ -146,8 +145,6 @@ deepagents-research-assistant/
     └── example.py
 ```
 
-**Solo 5 archivos principales. Simple y claro.**
-
 ## 🔧 Solución de problemas
 
 ### "Ollama no está instalado"
@@ -162,7 +159,7 @@ ollama --version
 ### "No hay modelos disponibles"
 ```bash
 # Instala el modelo
-ollama pull llama3.2
+ollama pull gemma3:4b
 
 # Verifica que se instaló
 ollama list
@@ -241,6 +238,3 @@ MIT License - Úsalo como quieras
 
 Dale una estrella ⭐ en GitHub y compártelo con otros!
 
----
-
-**Hecho con ❤️ usando tecnologías 100% gratuitas y open source**
